@@ -100,6 +100,7 @@ class MainActivity : ComponentActivity() {
                                     .fillMaxSize()
                             )
 
+
                             image?.let {
                                 val prediction = currencyRecognizer(
                                     onMakePrediction = viewModel::onMakePrediction
